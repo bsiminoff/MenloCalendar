@@ -16,6 +16,8 @@
 		B58A071A1D663E5800FE2EAA /* MenloCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A07191D663E5800FE2EAA /* MenloCalendarTests.swift */; };
 		B58A07251D66671000FE2EAA /* CalendarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58A07241D66671000FE2EAA /* CalendarView.framework */; };
 		CC9D407FAF0651D4D8BA6734 /* Pods_MenloCalendarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3199103C34B993013AE3DF7F /* Pods_MenloCalendarTests.framework */; };
+		E40321A11D736B420067F3FF /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40321A01D736B420067F3FF /* SettingTableViewCell.swift */; };
+		E40321A31D736B560067F3FF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40321A21D736B560067F3FF /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		B58A07191D663E5800FE2EAA /* MenloCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenloCalendarTests.swift; sourceTree = "<group>"; };
 		B58A071B1D663E5800FE2EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58A07241D66671000FE2EAA /* CalendarView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CalendarView.framework; path = "Pods/../build/Debug-iphoneos/CalendarView/CalendarView.framework"; sourceTree = "<group>"; };
+		E40321A01D736B420067F3FF /* SettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		E40321A21D736B560067F3FF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				B58A070B1D663E5800FE2EAA /* Assets.xcassets */,
 				B58A070D1D663E5800FE2EAA /* LaunchScreen.storyboard */,
 				B58A07101D663E5800FE2EAA /* Info.plist */,
+				E40321A01D736B420067F3FF /* SettingTableViewCell.swift */,
+				E40321A21D736B560067F3FF /* SettingsViewController.swift */,
 			);
 			path = MenloCalendar;
 			sourceTree = "<group>";
@@ -332,8 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40321A11D736B420067F3FF /* SettingTableViewCell.swift in Sources */,
 				B58A07071D663E5800FE2EAA /* ViewController.swift in Sources */,
 				B58A07051D663E5800FE2EAA /* AppDelegate.swift in Sources */,
+				E40321A31D736B560067F3FF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
