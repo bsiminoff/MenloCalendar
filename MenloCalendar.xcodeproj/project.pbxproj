@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7962F584C07003486AD8E16C /* Pods_MenloCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60608D874604E7B418A5C9EE /* Pods_MenloCalendar.framework */; };
 		B58A07051D663E5800FE2EAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A07041D663E5800FE2EAA /* AppDelegate.swift */; };
 		B58A07071D663E5800FE2EAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A07061D663E5800FE2EAA /* ViewController.swift */; };
 		B58A070A1D663E5800FE2EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58A07081D663E5800FE2EAA /* Main.storyboard */; };
 		B58A070C1D663E5800FE2EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58A070B1D663E5800FE2EAA /* Assets.xcassets */; };
 		B58A070F1D663E5800FE2EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58A070D1D663E5800FE2EAA /* LaunchScreen.storyboard */; };
 		B58A071A1D663E5800FE2EAA /* MenloCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A07191D663E5800FE2EAA /* MenloCalendarTests.swift */; };
+		B58A07251D66671000FE2EAA /* CalendarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58A07241D66671000FE2EAA /* CalendarView.framework */; };
+		CC9D407FAF0651D4D8BA6734 /* Pods_MenloCalendarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3199103C34B993013AE3DF7F /* Pods_MenloCalendarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B9A1FAB58FE6BAB7712EF22 /* Pods-MenloCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenloCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MenloCalendar/Pods-MenloCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		3199103C34B993013AE3DF7F /* Pods_MenloCalendarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MenloCalendarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4485320DFBAAFC4C63ED7D96 /* Pods-MenloCalendarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenloCalendarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MenloCalendarTests/Pods-MenloCalendarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60608D874604E7B418A5C9EE /* Pods_MenloCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MenloCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8BBAA8C6294D6292D3836C /* Pods-MenloCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenloCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-MenloCalendar/Pods-MenloCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		8F64214DE13B23FB6B5EB99B /* Pods-MenloCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenloCalendarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MenloCalendarTests/Pods-MenloCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
 		B58A07011D663E5800FE2EAA /* MenloCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenloCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58A07041D663E5800FE2EAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58A07061D663E5800FE2EAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +45,7 @@
 		B58A07151D663E5800FE2EAA /* MenloCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenloCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58A07191D663E5800FE2EAA /* MenloCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenloCalendarTests.swift; sourceTree = "<group>"; };
 		B58A071B1D663E5800FE2EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58A07241D66671000FE2EAA /* CalendarView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CalendarView.framework; path = "Pods/../build/Debug-iphoneos/CalendarView/CalendarView.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58A07251D66671000FE2EAA /* CalendarView.framework in Frameworks */,
+				7962F584C07003486AD8E16C /* Pods_MenloCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +62,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9D407FAF0651D4D8BA6734 /* Pods_MenloCalendarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A746034AEFABC8CF9DFD697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B58A07241D66671000FE2EAA /* CalendarView.framework */,
+				60608D874604E7B418A5C9EE /* Pods_MenloCalendar.framework */,
+				3199103C34B993013AE3DF7F /* Pods_MenloCalendarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B58A06F81D663E5800FE2EAA = {
 			isa = PBXGroup;
 			children = (
 				B58A07031D663E5800FE2EAA /* MenloCalendar */,
 				B58A07181D663E5800FE2EAA /* MenloCalendarTests */,
 				B58A07021D663E5800FE2EAA /* Products */,
+				DEA9F9C5743CCB10CADADD8F /* Pods */,
+				5A746034AEFABC8CF9DFD697 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +121,17 @@
 			path = MenloCalendarTests;
 			sourceTree = "<group>";
 		};
+		DEA9F9C5743CCB10CADADD8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B9A1FAB58FE6BAB7712EF22 /* Pods-MenloCalendar.debug.xcconfig */,
+				7A8BBAA8C6294D6292D3836C /* Pods-MenloCalendar.release.xcconfig */,
+				4485320DFBAAFC4C63ED7D96 /* Pods-MenloCalendarTests.debug.xcconfig */,
+				8F64214DE13B23FB6B5EB99B /* Pods-MenloCalendarTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B58A071E1D663E5800FE2EAA /* Build configuration list for PBXNativeTarget "MenloCalendar" */;
 			buildPhases = (
+				085588C5EAA43961F1BE67C2 /* [CP] Check Pods Manifest.lock */,
 				B58A06FD1D663E5800FE2EAA /* Sources */,
 				B58A06FE1D663E5800FE2EAA /* Frameworks */,
 				B58A06FF1D663E5800FE2EAA /* Resources */,
+				746F9969C2512032496FD09F /* [CP] Embed Pods Frameworks */,
+				AF95613E2C9B0789BAA221F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B58A07211D663E5800FE2EAA /* Build configuration list for PBXNativeTarget "MenloCalendarTests" */;
 			buildPhases = (
+				E51F5DB61DBA1B63752463EB /* [CP] Check Pods Manifest.lock */,
 				B58A07111D663E5800FE2EAA /* Sources */,
 				B58A07121D663E5800FE2EAA /* Frameworks */,
 				B58A07131D663E5800FE2EAA /* Resources */,
+				E8CE47A1939152F2777E5EB3 /* [CP] Embed Pods Frameworks */,
+				E114D826DAD3D50A02EA082F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +233,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		085588C5EAA43961F1BE67C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		746F9969C2512032496FD09F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenloCalendar/Pods-MenloCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF95613E2C9B0789BAA221F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenloCalendar/Pods-MenloCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E114D826DAD3D50A02EA082F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenloCalendarTests/Pods-MenloCalendarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E51F5DB61DBA1B63752463EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8CE47A1939152F2777E5EB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenloCalendarTests/Pods-MenloCalendarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B58A06FD1D663E5800FE2EAA /* Sources */ = {
@@ -325,8 +460,13 @@
 		};
 		B58A071F1D663E5800FE2EAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B9A1FAB58FE6BAB7712EF22 /* Pods-MenloCalendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CalendarView",
+				);
 				INFOPLIST_FILE = MenloCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MenloCalendar;
@@ -336,8 +476,13 @@
 		};
 		B58A07201D663E5800FE2EAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8BBAA8C6294D6292D3836C /* Pods-MenloCalendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CalendarView",
+				);
 				INFOPLIST_FILE = MenloCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MenloCalendar;
@@ -347,6 +492,7 @@
 		};
 		B58A07221D663E5800FE2EAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4485320DFBAAFC4C63ED7D96 /* Pods-MenloCalendarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MenloCalendarTests/Info.plist;
@@ -359,6 +505,7 @@
 		};
 		B58A07231D663E5800FE2EAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F64214DE13B23FB6B5EB99B /* Pods-MenloCalendarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MenloCalendarTests/Info.plist;
@@ -388,6 +535,7 @@
 				B58A07201D663E5800FE2EAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B58A07211D663E5800FE2EAA /* Build configuration list for PBXNativeTarget "MenloCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +544,7 @@
 				B58A07231D663E5800FE2EAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
