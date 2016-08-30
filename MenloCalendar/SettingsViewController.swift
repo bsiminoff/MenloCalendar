@@ -9,13 +9,13 @@
 import UIKit
 
 class SettingsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
+    var blocks = ["A", "B", "C", "D", "E", "F"]
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        blah
+        
         // Do any additional setup after loading the view.
     }
 
@@ -24,10 +24,12 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
         // Dispose of any resources that can be recreated.
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+        return blocks.count
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
+        var cell = tableView.dequeueReusableCellWithIdentifier("settingCell") as! SettingTableViewCell
+        cell.blockLabel.text = blocks[indexPath.row]
+        return cell
     }
 
     /*
