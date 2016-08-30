@@ -5,7 +5,7 @@
 //  Created by Dhruv Mangtani on 8/28/16.
 //  Copyright © 2016 Ben Siminoff. All rights reserved.
 //
-
+// Settings will be edited by client
 import UIKit
 
 class SettingsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
