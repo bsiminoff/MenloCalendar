@@ -6,7 +6,8 @@
 //  Copyright © 2016 Ben Siminoff. All rights reserved.
 //
 // Settings will be edited by client
-// comment
+// 
+// THIS IS A COMMENT
 import UIKit
 class SettingsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var blocks = ["A", "B", "C", "D", "E", "F"]
