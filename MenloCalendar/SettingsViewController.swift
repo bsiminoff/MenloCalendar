@@ -7,7 +7,7 @@
 //
 // Settings will be edited by client
 // 
-// THIS IS A COMMENT
+// Comment
 import UIKit
 class SettingsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var blocks = ["A", "B", "C", "D", "E", "F"]
