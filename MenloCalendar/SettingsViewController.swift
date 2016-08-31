@@ -7,7 +7,7 @@
 //
 // Settings will be edited by client
 import UIKit
-// useless comment
+// THis is a comment
 class SettingsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var blocks = ["A", "B", "C", "D", "E", "F"]
     @IBOutlet weak var tableView: UITableView!
